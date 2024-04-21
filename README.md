@@ -62,7 +62,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: PULI NAGA NEERAJ
 
 RegisterNumber: 212223240130
-
+```
 module Half_Adder_Subtractor(a,b,sum,carry,D,Bo);
 input a,b;
 output sum,carry,D,Bo;
@@ -72,7 +72,7 @@ not G4(abar,a);
 xor G3(D,a,b);
 and G5(B0,abar,b);
 endmodule 	
-
+```
 ### RTL Schematic
 
 ![image](https://github.com/Abburehan/HALF_ADDER_SUBTRACTOR/assets/138849336/f23d6690-b9a9-4175-a3c9-05d688e83718)
